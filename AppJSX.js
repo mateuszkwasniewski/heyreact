@@ -1,7 +1,7 @@
 import {app} from "https://unpkg.com/hyperapp?module";
 import html from "https://unpkg.com/hyperlit?module";
 
-const Increment = (state) => console.log(event) || ({...state, count: state.count + 1})
+const Increment = (state) => ({...state, count: state.count + 1})
 
 app({
     init: {count: 0},
